@@ -136,6 +136,7 @@ img {
   color: var(--accent-color);
 }
 /* =================HERO================= */
+
 .section {
   padding-top: var(--section-pt);
   padding-bottom: var(--section-pb);
@@ -206,8 +207,12 @@ img {
 }
 .hero {
   background: #2f303a;
+  background-image: url(/images/hero/bg.jpg);
   padding-top: 200px;
   padding-bottom: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px;
 }
 /* ================ABOUT================ */
 .function {
@@ -265,11 +270,20 @@ img {
   margin-left: -30px;
   margin-top: -30px;
 }
+
 .project-list-item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
 }
+.project-list-item:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
 .project-name {
   font-family: var(--main-font);
   font-weight: 700;
@@ -315,6 +329,9 @@ img {
 /* =================TEAM================= */
 .team {
   background-color: #f5f4fa;
+}
+.card {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .team-list {
   display: flex;
@@ -385,4 +402,16 @@ img {
   line-height: 2;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+/* ==========ICONS=========== */
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin: 0 auto;
+}
+.social-link {
+  display: flex;
+  align-items: center;
 }
