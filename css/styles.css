@@ -52,7 +52,7 @@ img {
   align-items: center;
   display: flex;
 }
-/* ==============COMPONENTS============== */
+/* ===========COMPONENTS=========== */
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -80,7 +80,7 @@ img {
 .web {
   color: #2196f3;
 }
-/* ===============NAVIGATION=============== */
+/* ============NAVIGATION============ */
 
 .navigation-item:not(:last-child) {
   margin-right: 50px;
@@ -135,7 +135,7 @@ img {
 .mail-link:focus {
   color: var(--accent-color);
 }
-/* =================HERO================= */
+/* ==============HERO============== */
 
 .section {
   padding-top: var(--section-pt);
@@ -218,7 +218,7 @@ img {
   background-size: cover;
   max-width: 1600px;
 }
-/* ================ABOUT================ */
+/* =============ABOUT============ */
 .function {
   margin-top: 10px;
 }
@@ -306,7 +306,7 @@ img {
   color: #757575;
 }
 
-/* =============ДЕЯТЕЛЬНОСТЬ============= */
+/* ===========ДЕЯТЕЛЬНОСТЬ========== */
 
 .title {
   font-family: var(--main-font);
@@ -330,7 +330,7 @@ img {
   margin-top: 30px;
 }
 
-/* =================TEAM================= */
+/* =============TEAM============= */
 .team {
   background-color: #f5f4fa;
 }
@@ -367,19 +367,13 @@ img {
   color: #757575;
   margin-bottom: 10px;
 }
-/* ================FOOTER================ */
+/* ============FOOTER================ */
 .footer {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-main {
-  display: flex;
-}
-.footer-social {
-  display: flex;
-  align-items: center;
-}
+
 .logo {
   display: inline-block;
   font-family: var(--secondary-font);
@@ -416,14 +410,3 @@ img {
 }
 
 /* ==========ICONS=========== */
-
-.social-list {
-  display: flex;
-  justify-content: space-between;
-  width: 200px;
-  margin: 0 auto;
-}
-.social-link {
-  display: flex;
-  align-items: center;
-}
