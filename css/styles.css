@@ -248,11 +248,26 @@ img {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
+
 }
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
 .about-list-item {
+  
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+
 }
 .about-title {
   font-family: var(--main-font);
@@ -425,7 +440,7 @@ img {
 
 
 .clients-list-item{
-  display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 170px;
@@ -454,7 +469,24 @@ img {
   padding-bottom: 60px;
 }
 
-.logo {
+
+.icon-social{
+  fill: #ffffff;
+  width: 20px;
+  height: 20px;
+}
+.footer-main{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+ 
+}
+.footer-social{
+ margin-top: 72px;
+ margin-bottom: 100px;
+  margin-left: 70px;
+}
+.logo-link {
   display: inline-block;
   font-family: var(--secondary-font);
   font-weight: bold;
@@ -464,8 +496,8 @@ img {
   color: #ffffff;
   margin-bottom: 10px;
 }
-.logo:hover,
-.logo:focus {
+.logo-link:hover,
+.logo-link:focus {
   color: var(--accent-color);
 }
 .footer-link {
@@ -480,13 +512,24 @@ img {
 .footer-link:focus {
   color: var(--accent-color);
 }
-.footer-adress {
+.location {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
   color: #ffffff;
+  
+}
+.footer-social-list{
+  display: flex;
+}
+.join{
+  font-family: var(--main-font);
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+color: #FFFFFF;
 }
 
 /* ==========ICONS=========== */
