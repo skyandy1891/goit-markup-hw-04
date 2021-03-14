@@ -92,6 +92,21 @@ img {
 .contact-list {
   display: flex;
   align-items: center;
+  margin-left: auto;
+}
+.contact-list .icons-contact-link {
+    display: inline-flex;
+    margin-right: 10px;
+    color: #757575;
+}
+.contact-list .icons-contact-link:hover,
+.contact-list .icons-contact-link:focus {
+    fill:var(--accent-color);
+}
+.contact-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navigation-link {
@@ -111,6 +126,7 @@ img {
 }
 
 .tel-link {
+  align-items: center;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
