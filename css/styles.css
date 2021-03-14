@@ -486,6 +486,15 @@ img {
  margin-bottom: 100px;
   margin-left: 70px;
 }
+.social-link{
+  justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%; 
+    background: rgba(255, 255, 255, 0.1);
+}
 .logo-link {
   display: inline-block;
   font-family: var(--secondary-font);
@@ -523,6 +532,13 @@ img {
 }
 .footer-social-list{
   display: flex;
+  width: 206px;
+  height: 44px;
+  justify-content: space-between;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
 }
 .join{
   font-family: var(--main-font);
@@ -530,6 +546,11 @@ font-weight: bold;
 font-size: 14px;
 line-height: 1.14;
 color: #FFFFFF;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.join-title{
+  margin-bottom: 20px;
 }
 
 /* ==========ICONS=========== */
