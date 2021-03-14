@@ -404,6 +404,49 @@ img {
   color: #757575;
   margin-bottom: 10px;
 }
+
+/* ========ПОСТОЯННЫЕ КЛИЕНТЫ======== */
+
+
+.clients{
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-right: 215px;
+  padding-left: 215px;
+}
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-list .item:not(:last-child){
+    margin-right: 30px;
+}
+
+
+.clients-list-item{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid rgba(175, 177, 184, 1); 
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+.client-logo{
+  fill: #AFB1B8;
+}
+
+.clients-list-item:hover {
+    border-color:var(--accent-color);
+}
+.clients-list-item:hover .client-logo {
+    fill: var(--accent-color);
+}
+
+
 /* ============FOOTER================ */
 .footer {
   background: #2f303a;
