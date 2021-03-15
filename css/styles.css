@@ -103,11 +103,7 @@ img {
 .contact-list .icons-contact-link:focus {
     fill:var(--accent-color);
 }
-.contact-box{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 
 .navigation-link {
   font-family: var(--main-font);
